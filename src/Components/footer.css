@@ -1,0 +1,38 @@
+.footerStyle {
+    width: 100%;
+    height: auto;
+    margin-left: 0rem;
+}
+.textStyle {
+    color: "black";
+    font-family: 'Belanosima', sans-serif;
+}
+.socialStyle {
+    font-size: 32px;
+    margin-left: 15rem;
+}
+.socialIcons {
+    margin-right: 4rem;
+}
+.copyRight {
+    margin-top: 3rem;
+}
+@media screen and (max-width: 762px){
+    .socialStyle {
+        font-size: 26px;
+        margin-left: 5rem;
+    }
+    .socialIcons {
+        margin-right: 0rem;
+        font-size: 32px;
+    }
+    .copyRight {
+        font-size: 16px;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        display: flex;
+        text-align: start;
+        align-items: self-start;
+        justify-content: start;
+    }
+}

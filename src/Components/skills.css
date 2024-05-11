@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@700&display=swap');
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+@media (max-width: 768px) {
+    .skill-section {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .skill-section1{
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: -1rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,20 @@
+.social-media-card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20rem;
+}
+.social-icon {
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+.social-icon:hover {
+    color: #007bff;
+}

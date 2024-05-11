@@ -1,0 +1,39 @@
+.vl {
+    border-left: 6px solid black;
+    height: 500px;
+    margin-left: 35rem;
+}
+h2 {
+    display: flex;
+    text-align: center;
+    margin-left: 450px;
+    font-size: 32px;
+}
+.icon {
+    font-size: 25px;
+    margin-left: 0rem;
+}
+.card {
+    height: auto;
+    outline: none;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+details {
+    cursor: pointer;
+    font-size: 16px;
+
+}
+@media screen and (max-width: 768px) {
+    .vl {
+        height: 500px;
+        margin-left: 13rem;
+    }
+    h2 {
+        display: flex;
+        text-align: start;
+        margin-left: 130px;
+        font-size: 24px;
+    }
+}
